@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74939F92C2BB06100AF8925 /* EditImageMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74939F82C2BB06100AF8925 /* EditImageMemoView.swift */; };
+		A74939FD2C2BED3600AF8925 /* MemoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74939FC2C2BED3600AF8925 /* MemoPageView.swift */; };
+		A784A2452C21682E00B9C9D6 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784A2442C21682E00B9C9D6 /* ImagePickerView.swift */; };
+		A784A2B32C22876D00B9C9D6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784A2B22C22876D00B9C9D6 /* LocationManager.swift */; };
 		A7A4A12F2BFC63DD00E33AA1 /* IOS203PhotoMap_33App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4A12E2BFC63DD00E33AA1 /* IOS203PhotoMap_33App.swift */; };
 		A7A4A1312BFC63DD00E33AA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4A1302BFC63DD00E33AA1 /* ContentView.swift */; };
 		A7A4A1332BFC63DF00E33AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A4A1322BFC63DF00E33AA1 /* Assets.xcassets */; };
@@ -14,6 +18,15 @@
 		A7A4A1402BFC63DF00E33AA1 /* IOS203PhotoMap_33Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4A13F2BFC63DF00E33AA1 /* IOS203PhotoMap_33Tests.swift */; };
 		A7A4A14A2BFC63DF00E33AA1 /* IOS203PhotoMap_33UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4A1492BFC63DF00E33AA1 /* IOS203PhotoMap_33UITests.swift */; };
 		A7A4A14C2BFC63DF00E33AA1 /* IOS203PhotoMap_33UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4A14B2BFC63DF00E33AA1 /* IOS203PhotoMap_33UITestsLaunchTests.swift */; };
+		A7E9D3392C22B60F00D50BDD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9D3382C22B60F00D50BDD /* Persistence.swift */; };
+		A7E9D33D2C25613500D50BDD /* AddImageMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9D33C2C25613500D50BDD /* AddImageMemoView.swift */; };
+		A7E9D33F2C2642A000D50BDD /* MemoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9D33E2C2642A000D50BDD /* MemoList.swift */; };
+		A7E9D3412C29584500D50BDD /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9D3402C29584500D50BDD /* CameraView.swift */; };
+		A7E9D3432C29588A00D50BDD /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9D3422C29588A00D50BDD /* ActivityView.swift */; };
+		A7E9D3452C2A4EF100D50BDD /* GeoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E9D3442C2A4EF100D50BDD /* GeoApi.swift */; };
+		A7F6B97F2C0ED6F3003199C5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F6B97D2C0ED6F3003199C5 /* Model.xcdatamodeld */; };
+		A7F6B9822C0ED7E5003199C5 /* PhotoSpot+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6B9802C0ED7E5003199C5 /* PhotoSpot+CoreDataClass.swift */; };
+		A7F6B9832C0ED7E5003199C5 /* PhotoSpot+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F6B9812C0ED7E5003199C5 /* PhotoSpot+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A74939F82C2BB06100AF8925 /* EditImageMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageMemoView.swift; sourceTree = "<group>"; };
+		A74939FC2C2BED3600AF8925 /* MemoPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPageView.swift; sourceTree = "<group>"; };
+		A784A2442C21682E00B9C9D6 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		A784A2B22C22876D00B9C9D6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A7A4A12B2BFC63DD00E33AA1 /* IOS203PhotoMap_33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS203PhotoMap_33.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4A12E2BFC63DD00E33AA1 /* IOS203PhotoMap_33App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS203PhotoMap_33App.swift; sourceTree = "<group>"; };
 		A7A4A1302BFC63DD00E33AA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,15 @@
 		A7A4A1452BFC63DF00E33AA1 /* IOS203PhotoMap_33UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS203PhotoMap_33UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4A1492BFC63DF00E33AA1 /* IOS203PhotoMap_33UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS203PhotoMap_33UITests.swift; sourceTree = "<group>"; };
 		A7A4A14B2BFC63DF00E33AA1 /* IOS203PhotoMap_33UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS203PhotoMap_33UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7E9D3382C22B60F00D50BDD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A7E9D33C2C25613500D50BDD /* AddImageMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageMemoView.swift; sourceTree = "<group>"; };
+		A7E9D33E2C2642A000D50BDD /* MemoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoList.swift; sourceTree = "<group>"; };
+		A7E9D3402C29584500D50BDD /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A7E9D3422C29588A00D50BDD /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		A7E9D3442C2A4EF100D50BDD /* GeoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoApi.swift; sourceTree = "<group>"; };
+		A7F6B97E2C0ED6F3003199C5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A7F6B9802C0ED7E5003199C5 /* PhotoSpot+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoSpot+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A7F6B9812C0ED7E5003199C5 /* PhotoSpot+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoSpot+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,8 @@
 		A7A4A1222BFC63DD00E33AA1 = {
 			isa = PBXGroup;
 			children = (
+				A7F6B9802C0ED7E5003199C5 /* PhotoSpot+CoreDataClass.swift */,
+				A7F6B9812C0ED7E5003199C5 /* PhotoSpot+CoreDataProperties.swift */,
 				A7A4A12D2BFC63DD00E33AA1 /* IOS203PhotoMap_33 */,
 				A7A4A13E2BFC63DF00E33AA1 /* IOS203PhotoMap_33Tests */,
 				A7A4A1482BFC63DF00E33AA1 /* IOS203PhotoMap_33UITests */,
@@ -96,6 +124,17 @@
 			children = (
 				A7A4A12E2BFC63DD00E33AA1 /* IOS203PhotoMap_33App.swift */,
 				A7A4A1302BFC63DD00E33AA1 /* ContentView.swift */,
+				A7E9D33E2C2642A000D50BDD /* MemoList.swift */,
+				A74939FC2C2BED3600AF8925 /* MemoPageView.swift */,
+				A74939F82C2BB06100AF8925 /* EditImageMemoView.swift */,
+				A7E9D3382C22B60F00D50BDD /* Persistence.swift */,
+				A7E9D33C2C25613500D50BDD /* AddImageMemoView.swift */,
+				A7E9D3442C2A4EF100D50BDD /* GeoApi.swift */,
+				A7E9D3402C29584500D50BDD /* CameraView.swift */,
+				A7E9D3422C29588A00D50BDD /* ActivityView.swift */,
+				A784A2442C21682E00B9C9D6 /* ImagePickerView.swift */,
+				A784A2B22C22876D00B9C9D6 /* LocationManager.swift */,
+				A7F6B97D2C0ED6F3003199C5 /* Model.xcdatamodeld */,
 				A7A4A1322BFC63DF00E33AA1 /* Assets.xcassets */,
 				A7A4A1342BFC63DF00E33AA1 /* Preview Content */,
 			);
@@ -257,8 +296,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74939FD2C2BED3600AF8925 /* MemoPageView.swift in Sources */,
+				A7F6B9822C0ED7E5003199C5 /* PhotoSpot+CoreDataClass.swift in Sources */,
+				A7E9D3392C22B60F00D50BDD /* Persistence.swift in Sources */,
+				A7F6B9832C0ED7E5003199C5 /* PhotoSpot+CoreDataProperties.swift in Sources */,
+				A7E9D33F2C2642A000D50BDD /* MemoList.swift in Sources */,
 				A7A4A1312BFC63DD00E33AA1 /* ContentView.swift in Sources */,
+				A7E9D3432C29588A00D50BDD /* ActivityView.swift in Sources */,
+				A7E9D3452C2A4EF100D50BDD /* GeoApi.swift in Sources */,
+				A784A2B32C22876D00B9C9D6 /* LocationManager.swift in Sources */,
+				A7E9D33D2C25613500D50BDD /* AddImageMemoView.swift in Sources */,
+				A7E9D3412C29584500D50BDD /* CameraView.swift in Sources */,
 				A7A4A12F2BFC63DD00E33AA1 /* IOS203PhotoMap_33App.swift in Sources */,
+				A784A2452C21682E00B9C9D6 /* ImagePickerView.swift in Sources */,
+				A74939F92C2BB06100AF8925 /* EditImageMemoView.swift in Sources */,
+				A7F6B97F2C0ED6F3003199C5 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +477,16 @@
 				DEVELOPMENT_TEAM = Z57LXP8H6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +511,16 @@
 				DEVELOPMENT_TEAM = Z57LXP8H6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +650,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7F6B97D2C0ED6F3003199C5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7F6B97E2C0ED6F3003199C5 /* Model.xcdatamodel */,
+			);
+			currentVersion = A7F6B97E2C0ED6F3003199C5 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = /Users/oliver/swift/IOS203PhotoMap_33/IOS203PhotoMap_33/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7A4A1232BFC63DD00E33AA1 /* Project object */;
 }

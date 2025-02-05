@@ -51,6 +51,7 @@
 		A74939FC2C2BED3600AF8925 /* MemoPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPageView.swift; sourceTree = "<group>"; };
 		A784A2442C21682E00B9C9D6 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		A784A2B22C22876D00B9C9D6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A79E14AC2D435DF000469E93 /* IOS203PhotoMap-33-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IOS203PhotoMap-33-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A7A4A12B2BFC63DD00E33AA1 /* IOS203PhotoMap_33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS203PhotoMap_33.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4A12E2BFC63DD00E33AA1 /* IOS203PhotoMap_33App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS203PhotoMap_33App.swift; sourceTree = "<group>"; };
 		A7A4A1302BFC63DD00E33AA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +123,7 @@
 		A7A4A12D2BFC63DD00E33AA1 /* IOS203PhotoMap_33 */ = {
 			isa = PBXGroup;
 			children = (
+				A79E14AC2D435DF000469E93 /* IOS203PhotoMap-33-Info.plist */,
 				A7A4A12E2BFC63DD00E33AA1 /* IOS203PhotoMap_33App.swift */,
 				A7A4A1302BFC63DD00E33AA1 /* ContentView.swift */,
 				A7E9D33E2C2642A000D50BDD /* MemoList.swift */,
@@ -477,6 +479,8 @@
 				DEVELOPMENT_TEAM = Z57LXP8H6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS203PhotoMap-33-Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
@@ -511,6 +515,8 @@
 				DEVELOPMENT_TEAM = Z57LXP8H6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS203PhotoMap-33-Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
